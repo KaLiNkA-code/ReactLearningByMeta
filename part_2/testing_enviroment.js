@@ -39,3 +39,22 @@ try {
 
 // throw new Error();
 // console.log("Hello");
+
+var str = "Hello";
+console.log(str.match("jello"));
+
+try {
+    Number(5).toPrecision(300)
+    } catch(SyntaxError) {
+    console.log("There was an error")
+}
+
+
+class Animal {
+
+}
+
+var lien = new Animal()
+
+console.log(lien)
+
