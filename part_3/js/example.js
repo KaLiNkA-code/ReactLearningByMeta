@@ -42,10 +42,8 @@ console.log("###########################################")
 
 const meal = ["soup", "steak", "ice cream", "steak", "ice cream", "steak", "ice cream"]
 let [starter, second, third, ...exxx] = meal;
+
 console.log(starter);
-
 console.log(second);
-
 console.log(third);
-
 console.log(exxx);
